@@ -1,0 +1,22 @@
+/* Target only the community section */
+.community-links p {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  margin: 0.3rem 0;
+  padding:2px;
+}
+
+.community-links p:hover {
+  color: #dbdf08;   /* highlight color */
+  transform: translateX(5px); /* slide right on hover */
+}
+.icon i {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  margin: 0.3rem 0;
+}
+
+.icon i:hover {
+  color: #09d6f1;   /* highlight color */
+  transform: translateX(5px); /* slide right on hover */
+}
