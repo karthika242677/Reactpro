@@ -7,6 +7,6 @@ export default defineConfig({
    server : {
     port : 5000 , 
     host : '0.0.0.0' , 
-    allowedHosts : ['mixtasproject.onrender.com']
+    allowedHosts : ['reactproject-yfw8.onrender.com']
   }
 })
